@@ -17,8 +17,8 @@ public class BankAccount {
     then display the new balance. */
 
     public static void deposit(){
-        double balance = Double.parseDouble(JOptionPane.showInputDialog("Please enter your Balanse"));
-        double deposit = Double.parseDouble(JOptionPane.showInputDialog("please enter the a,ount for the deposit"));
+        double balance = Double.parseDouble(JOptionPane.showInputDialog("Please enter your Balance"));
+        double deposit = Double.parseDouble(JOptionPane.showInputDialog("please enter the amount for the deposit"));
 
         balance += deposit;
         JOptionPane.showInputDialog(null, "Your new balance is: " + balance);
@@ -33,9 +33,9 @@ public class BankAccount {
      */
 public static void withddraw(){
     double balance = Double.parseDouble(JOptionPane.showInputDialog("Please enter your balance"));
-    double withdraw = Double.parseDouble(JOptionPane.showInputDialog("please enter the amount of the withdraw"));
+    double withddraw = Double.parseDouble(JOptionPane.showInputDialog("please enter the amount of the withdraw"));
 
-    balance -= withdraw;
+    balance -= withddraw;
 
     JOptionPane.showInputDialog(null, "Your new Balance is: " + balance);
 
